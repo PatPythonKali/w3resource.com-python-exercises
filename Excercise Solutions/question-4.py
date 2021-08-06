@@ -12,5 +12,3 @@ phone_dict = [{'make': 'Nokia', 'model': 216, 'color': 'Black'}, {'make': 'Mi Ma
 sorted_models = sorted(phone_dict, key = lambda x: x['color'])
 
 print(sorted_models)
-
-# phone_dict[0]["make"]
